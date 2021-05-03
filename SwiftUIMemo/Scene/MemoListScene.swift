@@ -16,7 +16,9 @@ struct MemoListScene: View {
     var body: some View {
         NavigationView {
             List(store.list) { memo in
-                MemoCell(memo: memo)
+                NavigationLink(destination: DetailScene(memo: memo), label: {
+                    MemoCell(memo: memo)
+                })
             }
             .navigationBarTitle("내 메모")
             .navigationBarItems(trailing: ModalButton(show: $showComposer))
