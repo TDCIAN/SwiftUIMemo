@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		183DE3442640ACA5002B4ADD /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3432640ACA5002B4ADD /* ComposeScene.swift */; };
 		183DE3472640B589002B4ADD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3462640B589002B4ADD /* TextView.swift */; };
+		183DE34B2640B70D002B4ADD /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE34A2640B70D002B4ADD /* KeyboardObserver.swift */; };
 		18B0C78626401482007EDE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78526401482007EDE54 /* AppDelegate.swift */; };
 		18B0C78826401482007EDE54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78726401482007EDE54 /* SceneDelegate.swift */; };
 		18B0C78A26401482007EDE54 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78926401482007EDE54 /* MemoListScene.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		183DE3432640ACA5002B4ADD /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
 		183DE3462640B589002B4ADD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		183DE34A2640B70D002B4ADD /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		18B0C78226401482007EDE54 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0C78526401482007EDE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B0C78726401482007EDE54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = Scene;
 			sourceTree = "<group>";
 		};
+		183DE3492640B6F9002B4ADD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				183DE34A2640B70D002B4ADD /* KeyboardObserver.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		18B0C77926401482007EDE54 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		18B0C78426401482007EDE54 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				183DE3492640B6F9002B4ADD /* Shared */,
 				183DE3412640ABCC002B4ADD /* Scene */,
 				18B0C7A626401831007EDE54 /* Extension */,
 				18B0C79E2640156C007EDE54 /* Model */,
@@ -200,6 +211,7 @@
 			files = (
 				18B0C78626401482007EDE54 /* AppDelegate.swift in Sources */,
 				18B0C7A426401618007EDE54 /* MemoStore.swift in Sources */,
+				183DE34B2640B70D002B4ADD /* KeyboardObserver.swift in Sources */,
 				18B0C78D26401482007EDE54 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				18B0C7A82640184B007EDE54 /* DateFormatter+Memo.swift in Sources */,
 				18B0C78826401482007EDE54 /* SceneDelegate.swift in Sources */,

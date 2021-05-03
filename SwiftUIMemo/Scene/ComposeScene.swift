@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ComposeScene: View {
+    @EnvironmentObject var keyboard: KeyboardObserver
     @EnvironmentObject var store: MemoStore
     @State private var content: String = ""
     
@@ -18,10 +19,11 @@ struct ComposeScene: View {
             VStack {
                 TextView(text: $content)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .padding(.bottom, keyboard.context.height)
+                    .animation(.easeInOut(duration: keyboard.context.animationDuration))
                     .background(Color.yellow)
-                    
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity) // 사용 가능한 최대 크기
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .navigationBarTitle("새 메모", displayMode: .inline)
             .navigationBarItems(leading: DismissButton(show: $showComposer), trailing: SaveButton(show: $showComposer, content: $content))
         }
@@ -59,5 +61,6 @@ struct ComposeScene_Previews: PreviewProvider {
     static var previews: some View {
         ComposeScene(showComposer: .constant(false))
             .environmentObject(MemoStore())
+            .environmentObject(KeyboardObserver())
     }
 }
