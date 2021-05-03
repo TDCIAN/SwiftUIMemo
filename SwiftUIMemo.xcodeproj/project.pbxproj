@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183DE3442640ACA5002B4ADD /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3432640ACA5002B4ADD /* ComposeScene.swift */; };
 		18B0C78626401482007EDE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78526401482007EDE54 /* AppDelegate.swift */; };
 		18B0C78826401482007EDE54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78726401482007EDE54 /* SceneDelegate.swift */; };
 		18B0C78A26401482007EDE54 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78926401482007EDE54 /* MemoListScene.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183DE3432640ACA5002B4ADD /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
 		18B0C78226401482007EDE54 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0C78526401482007EDE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B0C78726401482007EDE54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183DE3412640ABCC002B4ADD /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				18B0C7AB26401A32007EDE54 /* View */,
+				18B0C78926401482007EDE54 /* MemoListScene.swift */,
+				183DE3432640ACA5002B4ADD /* ComposeScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		18B0C77926401482007EDE54 = {
 			isa = PBXGroup;
 			children = (
@@ -66,12 +78,11 @@
 		18B0C78426401482007EDE54 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
-				18B0C7AB26401A32007EDE54 /* View */,
+				183DE3412640ABCC002B4ADD /* Scene */,
 				18B0C7A626401831007EDE54 /* Extension */,
 				18B0C79E2640156C007EDE54 /* Model */,
 				18B0C78526401482007EDE54 /* AppDelegate.swift */,
 				18B0C78726401482007EDE54 /* SceneDelegate.swift */,
-				18B0C78926401482007EDE54 /* MemoListScene.swift */,
 				18B0C78E26401485007EDE54 /* Assets.xcassets */,
 				18B0C79326401485007EDE54 /* LaunchScreen.storyboard */,
 				18B0C79626401485007EDE54 /* Info.plist */,
@@ -192,6 +203,7 @@
 				18B0C78A26401482007EDE54 /* MemoListScene.swift in Sources */,
 				18B0C7A02640157F007EDE54 /* Memo.swift in Sources */,
 				18B0C7AD26401A41007EDE54 /* MemoCell.swift in Sources */,
+				183DE3442640ACA5002B4ADD /* ComposeScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
