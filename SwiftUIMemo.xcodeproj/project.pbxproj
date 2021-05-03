@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		183DE3442640ACA5002B4ADD /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3432640ACA5002B4ADD /* ComposeScene.swift */; };
+		183DE3472640B589002B4ADD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3462640B589002B4ADD /* TextView.swift */; };
 		18B0C78626401482007EDE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78526401482007EDE54 /* AppDelegate.swift */; };
 		18B0C78826401482007EDE54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78726401482007EDE54 /* SceneDelegate.swift */; };
 		18B0C78A26401482007EDE54 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78926401482007EDE54 /* MemoListScene.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		183DE3432640ACA5002B4ADD /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
+		183DE3462640B589002B4ADD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		18B0C78226401482007EDE54 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0C78526401482007EDE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B0C78726401482007EDE54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				18B0C7AC26401A41007EDE54 /* MemoCell.swift */,
+				183DE3462640B589002B4ADD /* TextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				18B0C7A02640157F007EDE54 /* Memo.swift in Sources */,
 				18B0C7AD26401A41007EDE54 /* MemoCell.swift in Sources */,
 				183DE3442640ACA5002B4ADD /* ComposeScene.swift in Sources */,
+				183DE3472640B589002B4ADD /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

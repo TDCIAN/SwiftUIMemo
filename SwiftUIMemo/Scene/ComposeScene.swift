@@ -16,8 +16,10 @@ struct ComposeScene: View {
     var body: some View {
         NavigationView {
             VStack {
-                TextField("", text: $content)
+                TextView(text: $content)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(Color.yellow)
+                    
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity) // 사용 가능한 최대 크기
             .navigationBarTitle("새 메모", displayMode: .inline)
