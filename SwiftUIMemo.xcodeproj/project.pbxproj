@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		18B0C78626401482007EDE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78526401482007EDE54 /* AppDelegate.swift */; };
 		18B0C78826401482007EDE54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78726401482007EDE54 /* SceneDelegate.swift */; };
-		18B0C78A26401482007EDE54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78926401482007EDE54 /* ContentView.swift */; };
+		18B0C78A26401482007EDE54 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78926401482007EDE54 /* MemoListScene.swift */; };
 		18B0C78D26401482007EDE54 /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78B26401482007EDE54 /* SwiftUIMemo.xcdatamodeld */; };
 		18B0C78F26401485007EDE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B0C78E26401485007EDE54 /* Assets.xcassets */; };
 		18B0C79226401485007EDE54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B0C79126401485007EDE54 /* Preview Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		18B0C78226401482007EDE54 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0C78526401482007EDE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B0C78726401482007EDE54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18B0C78926401482007EDE54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18B0C78926401482007EDE54 /* MemoListScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListScene.swift; sourceTree = "<group>"; };
 		18B0C78C26401482007EDE54 /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
 		18B0C78E26401485007EDE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B0C79126401485007EDE54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				18B0C78526401482007EDE54 /* AppDelegate.swift */,
 				18B0C78726401482007EDE54 /* SceneDelegate.swift */,
-				18B0C78926401482007EDE54 /* ContentView.swift */,
+				18B0C78926401482007EDE54 /* MemoListScene.swift */,
 				18B0C78E26401485007EDE54 /* Assets.xcassets */,
 				18B0C79326401485007EDE54 /* LaunchScreen.storyboard */,
 				18B0C79626401485007EDE54 /* Info.plist */,
@@ -151,7 +151,7 @@
 				18B0C78626401482007EDE54 /* AppDelegate.swift in Sources */,
 				18B0C78D26401482007EDE54 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				18B0C78826401482007EDE54 /* SceneDelegate.swift in Sources */,
-				18B0C78A26401482007EDE54 /* ContentView.swift in Sources */,
+				18B0C78A26401482007EDE54 /* MemoListScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
