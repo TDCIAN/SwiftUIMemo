@@ -11,6 +11,8 @@
 		183DE3472640B589002B4ADD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3462640B589002B4ADD /* TextView.swift */; };
 		183DE34B2640B70D002B4ADD /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE34A2640B70D002B4ADD /* KeyboardObserver.swift */; };
 		183DE34F2640BA59002B4ADD /* DetailScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE34E2640BA59002B4ADD /* DetailScene.swift */; };
+		183DE3542640C848002B4ADD /* MemoEntity+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3532640C848002B4ADD /* MemoEntity+Identifiable.swift */; };
+		183DE3572640C882002B4ADD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183DE3562640C882002B4ADD /* CoreDataManager.swift */; };
 		18B0C78626401482007EDE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78526401482007EDE54 /* AppDelegate.swift */; };
 		18B0C78826401482007EDE54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78726401482007EDE54 /* SceneDelegate.swift */; };
 		18B0C78A26401482007EDE54 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0C78926401482007EDE54 /* MemoListScene.swift */; };
@@ -29,6 +31,8 @@
 		183DE3462640B589002B4ADD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		183DE34A2640B70D002B4ADD /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		183DE34E2640BA59002B4ADD /* DetailScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScene.swift; sourceTree = "<group>"; };
+		183DE3532640C848002B4ADD /* MemoEntity+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoEntity+Identifiable.swift"; sourceTree = "<group>"; };
+		183DE3562640C882002B4ADD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		18B0C78226401482007EDE54 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0C78526401482007EDE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B0C78726401482007EDE54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,16 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		183DE3512640C793002B4ADD /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				18B0C78B26401482007EDE54 /* SwiftUIMemo.xcdatamodeld */,
+				183DE3532640C848002B4ADD /* MemoEntity+Identifiable.swift */,
+				183DE3562640C882002B4ADD /* CoreDataManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
 		18B0C77926401482007EDE54 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +107,7 @@
 		18B0C78426401482007EDE54 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				183DE3512640C793002B4ADD /* DB */,
 				183DE3492640B6F9002B4ADD /* Shared */,
 				183DE3412640ABCC002B4ADD /* Scene */,
 				18B0C7A626401831007EDE54 /* Extension */,
@@ -102,7 +117,6 @@
 				18B0C78E26401485007EDE54 /* Assets.xcassets */,
 				18B0C79326401485007EDE54 /* LaunchScreen.storyboard */,
 				18B0C79626401485007EDE54 /* Info.plist */,
-				18B0C78B26401482007EDE54 /* SwiftUIMemo.xcdatamodeld */,
 				18B0C79026401485007EDE54 /* Preview Content */,
 			);
 			path = SwiftUIMemo;
@@ -224,6 +238,8 @@
 				18B0C7AD26401A41007EDE54 /* MemoCell.swift in Sources */,
 				183DE3442640ACA5002B4ADD /* ComposeScene.swift in Sources */,
 				183DE3472640B589002B4ADD /* TextView.swift in Sources */,
+				183DE3572640C882002B4ADD /* CoreDataManager.swift in Sources */,
+				183DE3542640C848002B4ADD /* MemoEntity+Identifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
